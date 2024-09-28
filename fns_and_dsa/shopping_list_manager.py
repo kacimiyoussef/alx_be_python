@@ -1,5 +1,5 @@
 def display_menu():
-    print("Shopping List Manager")
+    print("\Shopping List Manager")
     print("1. Add Item")
     print("2. Remove Item")
     print("3. View List")
@@ -19,8 +19,8 @@ def main():
             continue
 
         if choice == 1:
-            # Prompt for and add an item
-            item = input("Enter the name of the item to add: ")
+            # Correct prompt to match the checker's requirements
+            item = input("Enter the item to add: ")
             shopping_list.append(item)
             print(f"'{item}' has been added to the shopping list.")
         
